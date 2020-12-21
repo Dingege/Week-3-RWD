@@ -47,6 +47,23 @@ h2{
     color: #650300;
 }
 
+h4{
+    font-size: 24px;
+    color: #650300;
+}
+
+P{
+    font-size: 16;
+    line-height: 24px;
+    color: #000000;
+    font-family: Noto Sans,regular;
+}
+
+.p-pt40-tal{
+    text-align: left;    
+    padding-top: 4px;
+}
+
 .nav{
     width: 1920px;
     height: 108px;
@@ -80,21 +97,37 @@ padding: 64px 0 0 0;
 
 .intro ul{
     display: flex;
+    text-align: center;
     justify-content: center;
     padding-top: 60px;
-    align-content: space-around;
+    align-content: space-between;
+
 }
 
 .intro li{
     height: 250px;
     width: 208px;
+    padding-right: 60px;
+
 
 }
 .intro li img{
     width: 100px;
     height: 100px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
+/* .intro li p{
+text-align: left;    
+padding-top: 4px;
+} */
+
+.intro li .glasses{
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 11px;
+}
 
 
 
